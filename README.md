@@ -7,7 +7,7 @@ To represent the vehicle motion, we use the [kinematic bicycle model](ieeexplore
 
 ![model_kinematics](images/bicycle_kinematics.png)
 
-Where x and y represent the position of the vehicle in the reference frame. V the speed of the vehicle, Psi the orientation, delta the steering angle, a is the acceleration, Lf is the distance from the front wheel to the center of gravity of the vehicle, and dt is the sampling time of the control system. The subscripts t and t+1 denote the present and future value of the corresponding state, respectively. Note that the control inputs are delta and a, whereas x, y, v, Psi are the states of the vehicle.
+Where *x* and *y* represent the position of the vehicle in the reference frame. *v* the speed of the vehicle, *psi* the orientation, *delta* the steering angle, *a* is the acceleration, *Lf* is the distance from the front wheel to the center of gravity of the vehicle, and *dt* is the sampling time of the control system. The subscripts *t* and *t+1* denote the present and next value of the corresponding state, respectively. Note that the control inputs are *delta* and *a*, whereas *x*, *y*, *v*, *Psi* are the states of the vehicle.
 
 ### Timestep Length and Elapsed Duration (N & dt)
 
